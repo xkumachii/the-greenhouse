@@ -15,6 +15,8 @@
 # limitations under the License.
 #
 import webapp2
+import urllib2
+import json
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
